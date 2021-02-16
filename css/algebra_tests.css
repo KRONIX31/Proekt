@@ -4,9 +4,6 @@
 a{
     text-decoration: none;
 }
-body{
-    background: rgb(241, 241, 241);
-}
 .header{
     position: fixed;
     top: 0;
@@ -16,8 +13,16 @@ body{
     z-index: 100;
 }
 .header_wrapper{
-    max-width: 1200px;
+    max-width: 1300px;
     margin: 0 auto;
+    position: relative;
+}
+.header_home{
+    display: block;
+    background: url(../media/home.png) no-repeat;
+    background-size: cover;
+    width: 40px;
+    height: 40px;
 }
 .header_nav{
     padding-top: 10px;
@@ -37,8 +42,9 @@ body{
     padding-bottom: 10px;
 }
 .menu_link{
-    color: black;  
+    color: black;
 }
+
 .menu_item:hover .menu_link{
     color: rgb(100, 99, 99);
     cursor: default;
@@ -87,13 +93,31 @@ body{
     display: flex;
 }
 
-/*  */
+
+.menu_link_algebra{
+    color: rgb(118, 141, 126);
+    font-size: 49px;
+}
+.drop_menu_algebra_tests{
+    background: rgb(187, 187, 187);
+}
+
+
+/*   */
 
 .intro{
     width: 100%;
-    background: url(../media/main_bg.png) no-repeat center;
+    background: url(../media/algebra_bg.png) no-repeat center;
     background-size: cover;
     min-height: 100vh;
+    position: relative;
+}
+.icon_pic{
+    max-width: 100%;
+    width: 420px;
+    display: block;
+    margin: 0 auto;
+    padding-top: 160px;
 }
 .current_wrapper{
     background: white;
@@ -106,7 +130,7 @@ body{
     z-index: 10;
 }
 .current_title{
-    padding: 120px 100px 120px 100px;
+    padding: 100px 100px 40px 100px;
     font-family:'Courier New', Courier, monospace;
     font-weight: 1000;
     font-size: 60px;
@@ -117,37 +141,4 @@ body{
     top: 0;
     left: 0;
     width: 100%;
-}
-.current_title:after{
-    content: url('../media/arrow_1.png');
-    display: block;
-    margin-bottom: -80px;
-}
-
-.predmets{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 70px;
-    padding: 3px 50px 0 50px;
-    background: #fff;
-}
-
-.current_h{
-    font-family: 'Courier New', Courier, monospace;
-    font-weight: 500;
-    font-size: 32px;
-    margin-bottom: 20px;
-    border-bottom: solid 2px #000;
-    text-align: center;
-}
-.predmet_card{
-    box-shadow: 1px 1px 6px rgba(21, 20, 17, 0.25) ;
-}
-
-@media screen and (max-width: 860px) {
-    .predmets{
-        grid-template-columns: repeat(1, 1fr);
-        grid-gap: 100px;
-
-    }
 }

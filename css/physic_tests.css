@@ -92,6 +92,16 @@ a{
     display: flex;
 }
 
+
+.drop_menu_physic_tests{
+    background: rgb(187, 187, 187);
+}
+.menu_link_physic{
+    color: rgb(118, 141, 126);
+    font-size: 49px;
+}
+
+
 /*   */
 
 .intro{
@@ -101,15 +111,13 @@ a{
     min-height: 100vh;
     position: relative;
 }
-
-.physic_pic{
+.icon_pic{
     max-width: 100%;
     width: 420px;
     display: block;
     margin: 0 auto;
     padding-top: 160px;
 }
-
 .current_wrapper{
     background: white;
     max-width: 1600px;
