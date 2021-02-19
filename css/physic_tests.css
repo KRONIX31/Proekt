@@ -289,7 +289,7 @@ body{
 @media screen and (max-width: 650px){
     .current_title{
         font-size: 48px;
-        line-height: 39px;
+        line-height: 42px;
     }
 }
 @media screen and (max-width: 800px) {
