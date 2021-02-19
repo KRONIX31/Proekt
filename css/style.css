@@ -105,6 +105,7 @@ body{
     max-width: 1600px;
     margin: 0 auto;
     position: relative;
+    padding-bottom: 40px;
 }
 .current{
     box-shadow: 0px 15px 20px rgba(21, 20, 17, 0.25);
@@ -112,7 +113,7 @@ body{
 }
 .current_title{
     padding: 50px 20px 60px 20px;
-    font-family: monospace;
+    font-family: 'Courier New', Courier, monospace;
     font-weight: 1000;
     font-size: 60px;
     text-align: center;
@@ -135,19 +136,54 @@ body{
     grid-gap: 70px;
     padding: 3px 50px 0 50px;
     background: #fff;
+    margin-bottom: 30px;
 }
+
 
 .current_h{
     font-family: 'Courier New', Courier, monospace;
-    font-weight: 500;
+    font-weight: 600;
     font-size: 32px;
     margin-bottom: 20px;
     border-bottom: solid 2px #000;
     text-align: center;
 }
 .predmet_card{
-    box-shadow: 1px 1px 3px rgba(21, 20, 17, 0.25) ;
+    box-shadow: 0px 1px 12px rgba(21, 20, 17, 0.25) ;
+    padding: 5px;
 }
+.actual_p{
+    margin-bottom: 28px;
+    display: block;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    font-weight: 600;
+    color: rgb(60, 101, 122);
+    text-align: center;
+}
+.actual_p_list{
+    margin-bottom: 35px;
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+}
+.actual_p_list li{
+    margin-bottom: 20px;
+}
+.next_tems li:first-child{
+    margin-bottom: 4px;
+}
+.next_tems li{
+    opacity: 0.35;
+}
+.learn_tems li:nth-child(3){
+    margin-bottom: 0px;
+}
+
+
+
+
 
 @media screen and (max-width: 860px) {
     .predmets{
