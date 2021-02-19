@@ -174,7 +174,7 @@ body{
     display: inline-block;
     background: rgb(173, 216, 230);
     font-family: 'Courier New', Courier, monospace;
-    font-size: 23px;
+    font-size: 25px;
     padding: 3px;
     color: rgb(14, 10, 10);
     transition: 0.2s;
@@ -183,6 +183,8 @@ body{
     background: rgb(173, 216, 255);
     transition: 0.3s;
 }
+
+/* Modal */
 
 .modal{
     display: none;
@@ -238,7 +240,7 @@ body{
     opacity: 0.8;
 }
 .modal_body{
-    padding: 6px;
+    padding: 4px 12px 14px 12px;
 }
 .modal_body h4{
     font-size: 20px;
@@ -250,6 +252,35 @@ body{
 .calc_script{
     max-width: 80px;
     display: inline-block;
+}
+.input_wrapper{
+    display: inline-flex;
+    text-align: center;
+}
+.btn_submit{
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+    max-width: 400px;
+    flex-grow: 1;
+    display: block;
+    border: 2px solid rgb(97, 88, 88);
+    background: rgb(224, 231, 231);
+    border-radius: 10px;
+    margin-right: 10px;;
+}
+#lol{
+    outline: none;
+    background: rgba(21, 20, 17, 0);
+    border: none;
+    display: block;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 22px;
+    font-weight: 600;
+    max-width: 90px;
+}
+#lol:hover{
+    cursor: default;
 }
 
 
