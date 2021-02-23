@@ -252,6 +252,7 @@ body{
 .calc_script{
     max-width: 80px;
     display: inline-block;
+    white-space: nowrap;
 }
 .input_wrapper{
     display: inline-flex;
@@ -269,7 +270,7 @@ body{
     border-radius: 10px;
     margin-right: 10px;;
 }
-#lol{
+.show_result{
     outline: none;
     background: rgba(21, 20, 17, 0);
     border: none;
@@ -279,7 +280,7 @@ body{
     font-weight: 600;
     max-width: 90px;
 }
-#lol:hover{
+.show_result:hover{
     cursor: default;
 }
 
