@@ -4,6 +4,9 @@
 a{
     text-decoration: none;
 }
+.body{
+    background: rgb(241, 241, 241);
+}
 .header{
     position: fixed;
     top: 0;
