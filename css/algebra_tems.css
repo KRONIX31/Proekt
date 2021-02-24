@@ -4,6 +4,9 @@
 a{
     text-decoration: none;
 }
+.body{
+    background: rgb(241, 241, 241);
+}
 .header{
     position: fixed;
     top: 0;
@@ -84,13 +87,13 @@ a{
     font-size: 22px;
     width: 100%;
     height: 100%;
-    padding-top: 10px;
+    padding-top: 9px;
 }
 .tems{
     border-bottom: solid 1px rgb(97, 88, 88);
 }
 .link_tems{
-    background: url(../media/tems_1.png) no-repeat center 90% ;
+    background: url(../media/tems_1.png) no-repeat 91% 90% ;
 }
 .link_tests{
     background: url(../media/test_1.png) no-repeat center 90% ;
@@ -108,6 +111,7 @@ a{
 
 
 /*   */
+
 
 .intro{
     width: 100%;
@@ -128,6 +132,7 @@ a{
     max-width: 1600px;
     margin: 0 auto;
     position: relative;
+    padding: 25px;
 }
 .current{
     box-shadow: 0px 15px 20px rgba(21, 20, 17, 0.25);
@@ -146,11 +151,48 @@ a{
     left: 0;
     width: 100%;
 }
+.video{
+    width: 85%;
+    margin: 0 auto;
+}
+.video_wrapper {
+    max-width: 1440px;
+    margin: 0 auto;
+    position: relative;
+}
+.video_item {
+    padding-top: 56.25%;
+}
+.video_element {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.content_wrapper{
+    margin-bottom: 60px;
+    box-shadow: rgb(121, 45, 45) 1px 5px 10px;
+}
+.title_tems{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 55px;
+    font-weight: 1000;
+    color: rgb(54, 37, 37);
+    text-shadow: rgb(121, 45, 45) 1px 1px 5px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+
 
 @media screen and (max-width: 650px){
     .current_title{
         font-size: 49px;
         line-height: 42px;
+    }
+    .video{
+        width: 95%;
     }
 }
 @media screen and (max-width: 800px) {
