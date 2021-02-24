@@ -100,8 +100,7 @@ a{
 }
 
 .menu_link_algebra{
-    color: rgb(118, 141, 126);
-    font-size: 49px;
+    text-shadow: rgb(118, 118, 230) 1px 1px 6px;
 }
 .drop_menu_algebra_tems{
     background: rgb(187, 187, 187);
