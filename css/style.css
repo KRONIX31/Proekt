@@ -169,6 +169,23 @@ body{
     font-weight: 600;
 }
 .actual_p_list li{
+    position: relative;
+    padding-bottom: 3px;
+}
+.learn_tems li:after{
+    content: '';
+    width: 100%;
+    height: 2px;
+    background: rgb(46, 30, 134);
+    display: block;
+    position: absolute;
+    bottom: 0;
+}
+.learn_tems li:last-child:after{
+    content: '';
+    display: none;
+}
+.actual_p_list li{
     margin-bottom: 20px;
 }
 .next_tems li:first-child{
@@ -177,7 +194,7 @@ body{
 .next_tems li{
     opacity: 0.35;
 }
-.learn_tems li:nth-child(3){
+.learn_tems li:last-child{
     margin-bottom: 0px;
 }
 
